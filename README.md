@@ -1,0 +1,2 @@
+# ILOTR
+idle clicker project
