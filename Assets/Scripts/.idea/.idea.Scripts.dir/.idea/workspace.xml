@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75c05feb-d2aa-4a4a-9049-05484f1760c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoldManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoldManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603187329311</updated>
-      <workItem from="1603187333892" duration="2834000" />
+      <workItem from="1603187333892" duration="3244000" />
     </task>
     <servers />
   </component>
@@ -95,13 +94,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/GoldManager.cs</url>
-          <line>14</line>
+          <line>22</line>
           <properties documentPath="C:\Users\virgb\UnityProjects\ILOTR\Assets\Scripts\GoldManager.cs" initialLine="14">
             <startOffsets>
-              <option value="282" />
+              <option value="406" />
             </startOffsets>
             <endOffsets>
-              <option value="283" />
+              <option value="407" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />

@@ -7,6 +7,15 @@ public class GoldManager : MonoBehaviour
 
     public Text goldAmountText;
 
+    void Start()
+    {
+        this.goldAmount = PlayerPrefs.GetInt("Gold", 1);
+    }
+    
+    void OnDestroy() {
+        PlayerPrefs.SetInt("Gold", this.goldAmount);
+    }
+
     void Update()
     {
         this.goldAmountText.text = this.goldAmount.ToString("0 Gold");
