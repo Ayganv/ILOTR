@@ -6,6 +6,7 @@ public class GoldManager : MonoBehaviour
     public int goldAmount;
 
     public Text goldAmountText;
+    public int goldAmountPerClick = 5;
 
     void Start()
     {
@@ -25,6 +26,6 @@ public class GoldManager : MonoBehaviour
     }
     
     public void ProduceGold() {
-        this.goldAmount += 5; // this.goldAmount = this.goldAmount + 5;
+        this.goldAmount += goldAmountPerClick; // this.goldAmount = this.goldAmount + 5;
     }
 }
