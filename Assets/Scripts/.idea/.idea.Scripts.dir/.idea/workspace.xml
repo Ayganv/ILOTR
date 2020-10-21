@@ -20,9 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c05feb-d2aa-4a4a-9049-05484f1760c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GoldPressManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoldProductionManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoldProductionManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoldProductionUnit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoldProductionUnit.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoldProductionUnits.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoldProductionUnits.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoldManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoldManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoldPressManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoldPressManager.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +40,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/GoldPressManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GoldProductionManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GoldProductionUnit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GoldProductionUnits.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GoldManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -41,6 +50,9 @@
       <list>
         <option value="$PROJECT_DIR$/GoldManager.cs" />
         <option value="$PROJECT_DIR$/GoldPressManager.cs" />
+        <option value="$PROJECT_DIR$/GoldProductionUnits.cs" />
+        <option value="$PROJECT_DIR$/GoldProductionUnit.cs" />
+        <option value="$PROJECT_DIR$/GoldProductionManager.cs" />
       </list>
     </option>
   </component>
@@ -69,7 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603187329311</updated>
       <workItem from="1603187333892" duration="10537000" />
-      <workItem from="1603277813887" duration="2192000" />
+      <workItem from="1603277813887" duration="2945000" />
+      <workItem from="1603309366286" duration="1295000" />
     </task>
     <servers />
   </component>

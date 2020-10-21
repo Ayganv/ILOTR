@@ -1005,7 +1005,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Golden Press
+  m_Text: Golden Press = 100g
 --- !u!222 &1947497860
 CanvasRenderer:
   m_ObjectHideFlags: 0
