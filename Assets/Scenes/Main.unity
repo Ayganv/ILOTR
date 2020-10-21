@@ -374,6 +374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 576879729}
   - component: {fileID: 576879728}
+  - component: {fileID: 576879730}
   m_Layer: 0
   m_Name: Gold
   m_TagString: Untagged
@@ -395,8 +396,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goldAmountPerClick: 2
   goldAmountText: {fileID: 777911905}
-  goldPressAmount: 0
-  goldPress: {fileID: 207243803}
 --- !u!4 &576879729
 Transform:
   m_ObjectHideFlags: 0
@@ -411,6 +410,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &576879730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576879727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bee6c73db4d3b394db01691c7653ebdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generationAmount: 1
+  goldPress: {fileID: 207243803}
 --- !u!1 &777911904
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,8 +585,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 576879728}
-        m_TargetAssemblyTypeName: GoldManager, Assembly-CSharp
+      - m_Target: {fileID: 2033417252}
+        m_TargetAssemblyTypeName: GoldPressManager, Assembly-CSharp
         m_MethodName: BuyGoldPress
         m_Mode: 1
         m_Arguments:
@@ -872,9 +885,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 576879728}
+      - m_Target: {fileID: 576879727}
         m_TargetAssemblyTypeName: GoldManager, Assembly-CSharp
-        m_MethodName: ProduceGold
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1001,3 +1014,48 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947497857}
   m_CullTransparentMesh: 0
+--- !u!1 &2033417251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2033417253}
+  - component: {fileID: 2033417252}
+  m_Layer: 0
+  m_Name: GoldPress
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2033417252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033417251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bee6c73db4d3b394db01691c7653ebdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generationAmount: 1
+  goldPress: {fileID: 207243803}
+--- !u!4 &2033417253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033417251}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 508.41425, y: 239.7785, z: -11.889644}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
